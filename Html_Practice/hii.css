@@ -1,0 +1,47 @@
+.submite:hover{color: #ff9800 ; border: 1px solid orange ; width: 100px;
+ 
+}
+.first:hover{color: aqua; border: 2px solid orange ; width: 50px;
+
+}
+.last:hover{color: #ff9800; border: 2px solid orange; width: 50px;
+
+}
+.Phone:hover{color: aqua; border: 2px solid orangered; width: 50px;
+}
+.age:hover{color: blue; border: 2px solid red; width: 50px;
+
+}
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("images/nature-landscape-with-starry-clear-sky_23-2151683194.avif") no-repeat center center fixed;
+    background-size: cover;
+    border-image: auto;
+}
+.h1:hover{color: #ff9800; border: #ff9800 1px solid; font-size: large; display: inline;
+
+}
+.h2:hover{color: rgb(255, 127, 127); border: red 2px solid; 
+
+}
+.p:hover{color: beige; border: greenyellow 1px solid; font-size: large;
+}
