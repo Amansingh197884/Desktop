@@ -1,28 +1,31 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.main{
+
+.main {
     width: 100%;
-    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/download.jpeg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(images/download.jpeg);
     background-position: center;
     background-size: cover;
     height: 109vh;
 
 }
 
-.navbar{
+.navbar {
     width: 1200px;
     height: 75px;
     margin: auto;
 
 }
-.icon{
+
+.icon {
     width: 200px;
     float: left;
     height: 70px;
 }
-.img{
+
+.img {
     width: 100px;
     height: 50px;
     border: 10px solid white;
@@ -32,41 +35,47 @@
     margin-left: 0px;
 }
 
-.menu{
+.menu {
     width: 400px;
-    float:left;
+    float: left;
     height: 70px;
-    
-    
+
+
 }
-ul{
+
+ul {
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-left: 62px;
     margin-top: 27px;
     font-size: 14px;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     font-family: Arial;
     font-weight: bold;
     color: white;
 
 }
-ul li a:hover{
+
+ul li a:hover {
     color: orange;
 }
-.search{
+
+.search {
     width: 333px;
     float: left;
     margin-left: 220px;
 }
-.srch{
+
+.srch {
     font-family: 'Times New Roman', Times, serif;
     width: 100px;
     height: 20px;
@@ -80,10 +89,11 @@ ul li a:hover{
     float: left;
     padding: 10px;
     border-radius: 10px;
-    
-    
+
+
 }
-.btn{
+
+.btn {
     width: 100px;
     height: 40px;
     background-color: orange;
@@ -93,21 +103,23 @@ ul li a:hover{
     font-size: 15px;
     border-radius: 10px;
     margin-left: 20px;
-    
+
     border: 5px solid orange;
 }
-.content{
+
+.content {
     width: 1200px;
     height: auto;
-    
-    
+
+
     color: cornsilk;
     position: relative;
     padding-top: 20px;
     font-size: medium;
-    
+
 }
-.content.par{
+
+.content.par {
     padding-left: 20px;
     padding-bottom: 25px;
     font-family: Arial;
@@ -116,7 +128,8 @@ ul li a:hover{
     border: 2px solid orange;
 
 }
-.content h1{
+
+.content h1 {
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -125,14 +138,15 @@ ul li a:hover{
 
 }
 
-.content.span{
+.content.span {
     color: rgb(137, 12, 12);
     font-size: 18px;
 }
-.form{
+
+.form {
     width: 250px;
     height: 380px;
-    background:linear-gradient (to top,rgba(255, 252, 252, 0.8)50%, rgba(0,0,0,0.8)50%,);
+    background: linear-gradient (to top, rgba(255, 252, 252, 0.8)50%, rgba(0, 0, 0, 0.8)50%, );
     position: absolute;
     top: 70px;
     left: 870px;
@@ -142,10 +156,11 @@ ul li a:hover{
     border-radius: 10px;
     border: 2px solid white;
     margin-top: 40px;
-    
+
 
 }
-.form h2{
+
+.form h2 {
     font-family: sans-serif;
     width: 220px;
     color: orange;
@@ -156,7 +171,8 @@ ul li a:hover{
     background-color: white;
     border-radius: 10px;
 }
-.form input{
+
+.form input {
     width: 240px;
     height: 35px;
     background-color: aliceblue;
@@ -174,7 +190,8 @@ ul li a:hover{
     border-radius: 10px;
     background: transparent;
 }
-.bttn{
+
+.bttn {
     font-family: sans-serif;
     width: 220px;
 
@@ -187,8 +204,9 @@ ul li a:hover{
     margin-top: 50px;
     color: orange;
 }
-.cn{
-    
+
+.cn {
+
     font-family: sans-serif;
     width: 220px;
 
@@ -200,45 +218,54 @@ ul li a:hover{
     border-radius: 10px;
     margin-top: 20px;
     color: orange;
-    
+
 
 }
-.A{
+
+.A {
     background-color: white;
     border: 2px solid orange;
     margin-left: 75px;
     border-radius: 10px;
 
 }
-.container{
+
+.container {
     margin: auto;
     display: flex;
-    align-items: center; justify-content: center;
+    align-items: center;
+    justify-content: center;
     width: 80vw;
-    gap: 15px; width: 100%;
+    gap: 15px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.447);
-    
-    
+
+
 
 }
-.container img{
+
+.container img {
     height: 300px;
     width: 600px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    
+
 }
-.h3{
-    background-color: orange;width: 100%;
+
+.h3 {
+    background-color: orange;
+    width: 100%;
     font-style: italic;
 }
-.aman{
+
+.aman {
     margin-top: 10px;
 }
-.an{
-    
+
+.an {
+
     font-family: cursive;
     font-weight: 900;
     font-style: italic;
@@ -248,33 +275,33 @@ ul li a:hover{
     margin-top: 15px;
     background-color: rgba(17, 175, 214, 0.772);
 }
-.the{
 
-}
-.she{
+.she {
     width: 60%;
     margin-top: 30px;
 }
-.he{
+
+.he {
     background-color: rgba(255, 174, 0, 0.397);
 }
-.rat{
-    
-}
-.run{
+
+.run {
     background-color: rgb(240, 255, 243);
     font-style: italic;
 }
-.she{
+
+.she {
     margin-top: 10px;
     border-radius: 15px;
-    border: solid 15px rgba(6, 6, 6, 0.87) ;
+    border: solid 15px rgba(6, 6, 6, 0.87);
 }
-.golu{
+
+.golu {
     background-color: rgba(0, 217, 255, 0.123);
 }
-.AMAN{
-    
+
+.AMAN {
+
     display: flex;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -282,15 +309,18 @@ ul li a:hover{
     border: solid 5px rgba(255, 166, 0, 0.74);
     background-color: rgba(255, 0, 0, 0.719);
 }
-.aman{
+
+.aman {
     margin-left: 20px;
     margin-right: 8px;
-    height: auto; width: 100px;
+    height: auto;
+    width: 100px;
     border-radius: 10px;
     border: solid 5px rgba(255, 166, 0, 0.74);
-    
+
 }
-.img2{
+
+.img2 {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -299,8 +329,9 @@ ul li a:hover{
     border: solid 5px rgba(255, 166, 0, 0.74);
 
 }
-.img3{
-    
+
+.img3 {
+
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -308,8 +339,9 @@ ul li a:hover{
     border-radius: 10px;
     border: solid 5px rgba(255, 166, 0, 0.74);
 }
-.img4{
-    
+
+.img4 {
+
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -317,8 +349,9 @@ ul li a:hover{
     border-radius: 10px;
     border: solid 5px rgba(255, 166, 0, 0.74);
 }
-.img5{
-    
+
+.img5 {
+
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -327,12 +360,14 @@ ul li a:hover{
     border: solid 5px rgba(255, 166, 0, 0.74);
 
 }
-.p{
+
+.p {
     border: solid 5px orange;
     border-radius: 15px;
-background-color: red;
+    background-color: red;
 }
-.p1{
+
+.p1 {
     border: 3px solid rgb(8, 8, 8);
     border-radius: 10px;
     color: rgb(11, 11, 11);
@@ -344,48 +379,54 @@ background-color: red;
     font-style: italic;
     line-height: 20px;
     font-weight: 900;
-    
-}
-.web{
-    border: 5px solid orange; width: 243px;
-border-radius: 15px;
-}
-.webpage{
-    border: 5px solid orange; width: 243px;
-border-radius: 15px;
-margin-left: 240px;
-margin-right: 0px;
-
-}
-.h6{
-    
-    border: 5px solid orange; width: 243px;
-border-radius: 15px;
-margin-left: 480px;
-margin-right: 0px;
-
-}
-.h4{
-    
-    border: 5px solid orange; width: 150px;
-border-radius: 15px;
-margin-left: 780px;
-margin-right: 0px;
 
 }
 
+.web {
+    border: 5px solid orange;
+    width: 243px;
+    border-radius: 15px;
+}
 
+.webpage {
+    border: 5px solid orange;
+    width: 243px;
+    border-radius: 15px;
+    margin-left: 240px;
+    margin-right: 0px;
 
+}
 
+.h6 {
 
+    border: 5px solid orange;
+    width: 243px;
+    border-radius: 15px;
+    margin-left: 480px;
+    margin-right: 0px;
 
+}
 
+.h4 {
 
+    border: 5px solid orange;
+    width: 150px;
+    border-radius: 15px;
+    margin-left: 780px;
+    margin-right: 0px;
 
-    
-    
-    
-    
-    
+}
 
+.img {
+    position: relative;
 
+}
+
+.img h1 {
+    position: absolute;
+    z-index: 10;
+}
+.new img{
+    /* position: absolute; */
+    z-index: 1;
+}
